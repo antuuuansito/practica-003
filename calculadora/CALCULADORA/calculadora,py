@@ -1,0 +1,15 @@
+import flet as ft
+import math
+
+def main(page: ft.page):
+    # configuracion de la ventana 
+    page.title = "calculadora simple"
+    page.bgcolor = ft.colors.BLUE_800
+
+titulo = ft.text(
+    "🧮 calculadora basica",
+    size=28,
+    color=ft.colors.YELLOW_100,
+    text_align="center",
+    weight="bold"
+)
